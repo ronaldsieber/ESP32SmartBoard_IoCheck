@@ -1,6 +1,6 @@
 # ESP32SmartBoard_IoCheck
 
-This Arduino sketch is the elementary basic software for the hardware project [ESP32SmartBoard_PCB](https://github.com/ronaldsieber/ESP32SmartBoard_IoCheck) and uses the entire periphery of the board.
+This Arduino sketch is the elementary basic software for the hardware project [ESP32SmartBoard_PCB](https://github.com/ronaldsieber/ESP32SmartBoard_PCB) and uses the entire periphery of the board.
 
 On the one hand, the sketch is a good starting point for new software projects based on this board. On the other hand, all components can be checked for their correct function after the board has been assembeld.
 
@@ -21,7 +21,7 @@ The sketch implements the following functionalities:
 **Button BLE_CFG:**
 - The blue on-board LED of the ESP32DevKit lights up continuously as long as the button is pressed
 
-The values ​​of the **DHT22** (temperature and humidity) and the **MH-Z19** (CO2 level and sensor temperature) are displayed in the serial terminal window (115200Bd) with a cycle interval of 5 seconds.
+The values of the **DHT22** (temperature and humidity) and the **MH-Z19** (CO2 level and sensor temperature) are displayed in the serial terminal window (115200Bd) with a cycle interval of 5 seconds.
 
 ## Configuration Section
 
